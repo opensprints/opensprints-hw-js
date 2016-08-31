@@ -26,9 +26,9 @@ node index.js
 
 0. Open http://browser.zettajs.io/#/overview?url=http:%2F%2F127.0.0.1:1337
 
-This a JavaScript client running in the browser, making requests to hub running
-as a RESTful API.
+   This a JavaScript client running in the browser, making requests to the USB
+   monitor running as a RESTful web service API.
 
-Click on the "start" button under "State Machine Device". The magnet sensor
-should cause incrementing ticks for the associated "roller" until the State
-Machine Device's "stop" button is pressed.
+   Click on the "start" button under "State Machine Device". The magnet sensor
+   should cause incrementing ticks for the associated "roller" until the State
+   Machine Device's "stop" button is pressed.
