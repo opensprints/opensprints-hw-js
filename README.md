@@ -3,7 +3,7 @@ This project hosts the OpenSprints USB hub as a RESTful web service.
 The hall effect sensors are monitored, LEDs are controlled, and a state machine
 switches between two states:
 - "waiting": magnets are ignored
-- "counting": magnets switching the hall sensors on and off cause counters to
+- "counting": magnets switching the hall sensors on and off, causing counters to
   increment.
 
 A client can monitor the rollers' ticks and transition the state machine between
