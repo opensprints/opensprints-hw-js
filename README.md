@@ -15,6 +15,8 @@ designed to interact with the Siren hypermedia media type.
 ## Running the service:
 
 0. Install the node dependencies.
+0. Make sure the StandardFirmata sketch is flashed on the OpenSprints USB
+   device's Arduino.
 0. Connect the OpenSprints USB device.
 0. Run:
 
