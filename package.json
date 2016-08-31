@@ -1,0 +1,30 @@
+{
+  "name": "opensprints-hw-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "serialport": "latest",
+    "firmata": "latest",
+    "johnny-five": "latest",
+    "zetta": "latest",
+    "zetta-scout": "latest",
+    "zetta-device": "latest",
+    "zetta-jsmpeg-camera": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensprints/opensprints-hw-js"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opensprints/opensprints-hw-js/issues"
+  },
+  "homepage": "https://github.com/opensprints/opensprints-hw-js"
+}
