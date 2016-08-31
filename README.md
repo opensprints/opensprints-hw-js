@@ -20,9 +20,9 @@ designed to interact with the Siren hypermedia media type.
 0. Connect the OpenSprints USB device.
 0. Run:
 
-```
-node index.js
-```
+   ```
+   node index.js
+   ```
 
 0. Open http://browser.zettajs.io/#/overview?url=http:%2F%2F127.0.0.1:1337
 
