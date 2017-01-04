@@ -24,6 +24,13 @@ designed to interact with the Siren hypermedia media type.
    node index.js
    ```
 
+   Depending on which port the Arduino is mounted to, the command may need to be
+   run by the root user:
+
+   ```
+   sudo node index.js
+   ```
+
 0. Open http://browser.zettajs.io/#/overview?url=http:%2F%2F127.0.0.1:1337
 
    This a JavaScript client running in the browser, making requests to the USB
