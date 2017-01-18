@@ -3,8 +3,6 @@ var util = require("util");
 
 var RollerDevice = module.exports = function(j5Led, j5Input, name) {
   Device.call(this);
-  this._led = j5Led;
-  this._led.off();
   this._input = j5Input;
   this.ticks = 0;
   this.name = name;
@@ -57,10 +55,10 @@ RollerDevice.prototype.stopCounting = function(cb) {
 
 RollerDevice.prototype.turnGreen = function() {
   var self = this;
-  self._led.on();
+  console.log(self.name + " led on");
 };
 
 RollerDevice.prototype.turnRed = function() {
   var self = this;
-  self._led.off();
+  console.log(self.name + " led off");
 };
