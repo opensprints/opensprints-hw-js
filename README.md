@@ -21,7 +21,7 @@ designed to interact with the Siren hypermedia media type.
 0. Run:
 
    ```
-   node index.js
+   node example/server.js
    ```
 
    Depending on which port the Arduino is mounted to, the command may need to be
