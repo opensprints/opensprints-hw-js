@@ -16,7 +16,8 @@ function swapState (state) {
 }
 
 // https://coligo.io/nodejs-event-emitter/
-var MockButton = function(name) {
+function MockButton(name) {
+  /*
   EventEmitter.call(this);
 
   const that = this;
@@ -32,22 +33,22 @@ var MockButton = function(name) {
       that.emit("up");
     }
   }, random(250, 1500)); // TOOD: random amount of time
-};
-util.inherits(MockButton, EventEmitter);
-
-var MockLed = function(name) {
-  var self = this;
-  self.name = name;
+  */
 }
 
+util.inherits(MockButton, EventEmitter);
+
+function MockLed(name) {
+  this.name = name;
+}
+
+MockLed.prototype.constructor = MockLed;
 MockLed.prototype.off = function() {
-  var self = this;
-  console.log("mock LED " + self.name + " off");
+  console.log("mock LED " + this.name + " off");
 };
 
 MockLed.prototype.on = function() {
-  var self = this;
-  console.log("mock LED " + self.name + " on");
+  console.log("mock LED " + this.name + " on");
 };
 
 var j5Scout = module.exports = function() {
